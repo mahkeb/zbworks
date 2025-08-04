@@ -1,5 +1,6 @@
 html, body {
   overscroll-behavior: none;
+  scroll-behavior: smooth;
 }
 body {
   font-family: Arial, sans-serif;
@@ -87,6 +88,9 @@ body {
   font-size: 35px;
   color: blue;
   margin-top: 220px
+}
+.quote-link {
+  margin-top: 270px;
 }
 .window-info-wrapper {
   margin-top: 90px;
