@@ -1,0 +1,117 @@
+html, body {
+  overscroll-behavior: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  background: #f7ecec;
+  margin: 0;
+  background-image: url('mountians.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+.everything-wrapper {
+  width: 100vw;
+}
+.header-wrapper {
+  position: fixed;
+  height: 75px;
+  width: 100%;
+  margin-top: 0;
+  margin-left: 0;
+  z-index: 100;
+}
+.header {
+  height: 75px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 4px solid black;
+}
+.logo {
+  margin: 0;
+  padding: 0;
+  font-size: 35px;
+  text-decoration: underline;
+  font-family: courier;
+}
+.logo-wrapper {
+  margin-left: 70px;
+  padding: 20px;
+  width: 100%;
+  position: absolute;
+}
+.image-wrapper {
+  padding: 15px;
+  position: fixed;
+}
+.image {
+  height: 45px;
+}
+.main-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('soapy-window.avif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cleaning-info-1 {
+  display: flex;
+  background-color: white;
+  width: 700px;
+  height: 450px;
+  border: 5px solid black;
+  border-radius: 30px;
+  transform: translate(-30px, 0);
+  justify-content: center;
+}
+.fw {
+  position: absolute;
+  font-family: Courier;
+  font-size: 50px;
+  color: red;
+  margin-top: 130px
+}
+.bc {
+  position: absolute;
+  font-family: Courier;
+  font-size: 35px;
+  color: blue;
+  margin-top: 185px
+}
+.cs {
+  position: absolute;
+  font-family: Courier;
+  font-size: 35px;
+  color: blue;
+  margin-top: 220px
+}
+.window-info-wrapper {
+  margin-top: 90px;
+  margin-left: 150px;
+  margin-bottom: 90px;
+}
+.window-info {
+  height: 500px;
+  width: calc(100vw - 300px);
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.text-wrapper {
+  margin-left: 30px;
+  padding-top: 30px;
+  width: 400px
+}
+.contact-us {
+  font-size: 50px;
+}
+.number {
+  font-size: 20px;
+  padding-left: 25px;
+}
+.window-info-text {
+  font-size: 15px;
+  padding-left: 25px;
+  padding-top: 10px;
+}
